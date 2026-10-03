@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/status")
     public String status() {
-        return "SpringBoot is working on Apache Tomcat Server!";
+        return "SpringBoot is working on Apache Tomcat Server port 8080!";
     }
 
     @GetMapping("/goodbye")
